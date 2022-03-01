@@ -6,6 +6,8 @@ spring:
   jpa:
    hibernate:
     ddl-auto: update
+  zipkin:
+    base-url: http://127.0.0.1:9411/
 eureka:
   client:
     register-with-eureka: true
@@ -14,3 +16,12 @@ eureka:
       defaultZone: http://localhost:8761/eureka
   instance:
     hostname: localhost
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "*"
+springdoc:
+  swagger-ui:
+    path: coupon-swagger-ui
