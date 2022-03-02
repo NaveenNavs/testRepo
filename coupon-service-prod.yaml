@@ -8,6 +8,13 @@ spring:
     ddl-auto: update
   zipkin:
     base-url: http://127.0.0.1:9411/
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: ccc9e766ea9f23437615
+            client-secret: c300e9b084c416b2dfec0836065b1468b6b20024
 eureka:
   client:
     register-with-eureka: true
