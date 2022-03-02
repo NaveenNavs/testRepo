@@ -13,8 +13,8 @@ spring:
       client:
         registration:
           github:
-            client-id: ccc9e766ea9f23437615
-            client-secret: c300e9b084c416b2dfec0836065b1468b6b20024
+            client-id: 1bfa62e5c6c829981173
+            client-secret: eba06796c9f4b4d501a54258c12b48ca0af54988
 eureka:
   client:
     register-with-eureka: true
